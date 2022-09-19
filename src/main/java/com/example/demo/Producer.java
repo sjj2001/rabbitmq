@@ -18,5 +18,6 @@ public class Producer {
         String message="hello,world";
         channel.basicPublish("",QUEUE_NAME,null,message.getBytes());
         System.out.println("over");
+//        master-test
     }
 }
