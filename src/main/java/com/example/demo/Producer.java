@@ -19,5 +19,6 @@ public class Producer {
         channel.basicPublish("",QUEUE_NAME,null,message.getBytes());
         System.out.println("over");
 //        master-test
+//        hot-fix
     }
 }
